@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+   
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>李ㄚ糖's album!</title>
+
+  <link rel="stylesheet" href="styles.08f90a9ff6be2fdf6b62.css"></head>
+
+  <body class="header">
+   
+    <h1>李ㄚ糖</h1>
+    <div class="menu">
+        <div class="title">
+        <!--給這個div一個class -> min_picture -->
+          <div class="min_picture"> </div>
+         
+        <ul> <br>
+            <li>Home</li>
+            <li>Pag1</li>
+            <li>Pag2</li>
+            <li>Pag3</li>
+        </ul>
+        </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="banner">
+          <div class="picture"></div>
+          <span>樂樂
+            <br>正在努力邁向前端工程師之路
+            <br>iT鐵人賽持續衝刺中</span>
+        </div>
+        <!--------------------看這裡------------------->
+        <div class="news" margin-left="50%">
+          <div>最新文章</div>
+          <ul>
+            <li>文章1</li>
+            <li>文章1</li>
+            <li>文章1</li>
+          </ul>
+          <a href="#">more</a>
+        </div>
+        <!--------------------看這裡------------------->
+      </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+
+   <!-- p5.js v0.6.0 -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+   <script>
+     function setup() {
+       createCanvas( 1680,720); // 建立畫布 createCanvas( 【寬度】, 【高度】 )
+     }
+ 
+     function draw() {
+         ellipse( mouseX, mouseY, 50, 50 );
+         //line(pmouseX,pmouseY,mouseX,mouseY);
+         
+       if ( mouseIsPressed ) { // 按住滑鼠左/右鍵時
+      // ellipse( mouseX, mouseY, 5, 5 ); // 繪製圓圈 ellipse( 【x軸】, 【y軸】, 【寬度】, 【高度】 )
+        /*
+         line(pmouseX,pmouseY,mouseX,mouseY);
+         fill( "pink" ); // 填滿顏色
+         strokeWeight(0); // 外框寬度
+       */
+          clear(); 
+   
+         } 
+       
+     }
+   // Define the mousePressed function 
+function mousePressed() { 
+    //clear(); 
+   
+}
+   </script>
+    
+  <script src="runtime.0e49e2b53282f40c8925.js" defer></script><script src="polyfills.8c151b8375e767ff858f.js" defer></script><script src="main.c478cabdca7b21e1eaf0.js" defer></script></body>
+</html>
